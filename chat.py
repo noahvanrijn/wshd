@@ -7,6 +7,7 @@ from langchain.vectorstores import Chroma
 from langchain.memory import ConversationSummaryBufferMemory
 from langchain.chains import ConversationChain
 import os
+import sqlite3
 
 load_dotenv()
 
