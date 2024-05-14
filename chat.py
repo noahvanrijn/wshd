@@ -8,6 +8,10 @@ from langchain.memory import ConversationSummaryBufferMemory
 from langchain.chains import ConversationChain
 import os
 
+__import__('pysqlite3')
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
+
 load_dotenv()
 
 website_url = "https://www.wshd.nl/"
