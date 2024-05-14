@@ -9,11 +9,6 @@ from langchain.chains import ConversationChain
 import os
 
 load_dotenv()
-# Retrieve the Cohere API key from environment variables
-cohere_api_key = os.getenv('COHERE_API_KEY')
-
-# Initialize the Cohere client with the API key
-co = cohere.Client(cohere_api_key)
 
 website_url = "https://www.wshd.nl/"
 
