@@ -6,7 +6,6 @@ from langchain.embeddings import OpenAIEmbeddings
 from langchain.vectorstores import Chroma
 from langchain.memory import ConversationSummaryBufferMemory
 from langchain.chains import ConversationChain
-import cohere
 import os
 
 load_dotenv()
